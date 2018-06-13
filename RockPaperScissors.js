@@ -30,7 +30,7 @@ const computeWinner = (userWeapon, computerWeapon) => {
                     return "DRAW!";
                 } else if (computerWeapon === 'paper') { 
                     return "YOU WIN!";
-                } else if (computerWeapon === 'rock') {
+                } else {
                     return "COMPUTER WINS!";
                 }
                 break;            
@@ -39,7 +39,7 @@ const computeWinner = (userWeapon, computerWeapon) => {
                         return "YOU WIN!";
                     } else if (computerWeapon === 'paper') { 
                         return "COMPUTER WINS!";
-                    } else if (computerWeapon === 'rock') {
+                    } else {
                         return "DRAW!";
                     }
                     break;
@@ -48,7 +48,7 @@ const computeWinner = (userWeapon, computerWeapon) => {
                         return "COMPUTER WINS!";
                     } else if (computerWeapon === 'paper') { 
                         return "DRAW!";
-                    } else if (computerWeapon === 'rock') {
+                    } else {
                         return "YOU WIN!";
                     }
                     break;
